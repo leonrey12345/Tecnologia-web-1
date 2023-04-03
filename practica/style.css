@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-size: 62.5%;
+    flex-wrap: wrap;
+}
+header{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+header h1{
+    color: orangered;
+}
+ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    
+
+}
+li{
+    font-size: medium;
+    flex: center;
+    margin: 1rem;
+    color: cornflowerblue;
+    list-style: none;
+    text-decoration: none;
+}
+li a{
+    color: white;
+}
+
+
+.container{
+    background-color: #1f2233;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__menu{
+    background-image: url(paisaje.jpg);
+    background-size: 40%;
+    background-position: center;
+    height: 33vh;
+
+}
+.container__principal{
+    background-color: #1f2233;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+.container__principal--{
+    color: orangered;
+    flex-direction: initial;
+}
+.p1__p2{
+    color: white;
+}
+.container__menu--{
+    color: white;
+    display: inline-block;
+
+}
+.container__footer{
+    background-color: #25273e;
+    height: 20vh;
+}
